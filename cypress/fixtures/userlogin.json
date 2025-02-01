@@ -1,0 +1,10 @@
+{
+    "validLogin": {
+        "email": "rezaparamarta30@gmail.com",
+        "password": "qwerty123!"
+    },
+    "invalidLogin": {
+        "email": "rezaparamarta30gmail.com",
+        "password": "qwerty123!"
+    }
+}

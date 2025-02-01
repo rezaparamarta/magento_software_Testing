@@ -1,0 +1,19 @@
+{
+    "validUser": {
+      "firstName": "Reza",
+      "lastName": "Paramarta",
+      "email": "reza@testing.com",
+      "password": "Sanbercode63",
+      "confirmPassword": "Sanbercode63"
+    },
+
+    "invalidUser": {
+      "firstName": "Reza",
+      "lastName": "Ganteng",
+      "password": "Sanbercode63",
+      "confirmPassword": "Sanbercode63",
+      "email": "gagal@testing.com"
+    }
+    
+  }
+  
