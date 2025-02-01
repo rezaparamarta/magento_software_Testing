@@ -37,3 +37,21 @@ Cypress.Commands.add('Login fail Both Empty Email and Password', () => {
     cy.get('#pass-error').should('have.text', 'This is a required field.');
 });
 
+// Commands untuk verifikasi Size dan Color yang dipilih, dan berhasil ditambahkan ke cart
+Cypress.Commands.add('verifySizeAndColor', (size, color) => {
+    cy.visit('/desiree-fitness-tee.html');
+    
+    // Pastikan elemen terlihat sebelum verifikasi
+    cy.get('#option-label-size-143-item-167')
+      .should('be.visible')
+      .and('contain.text', size);
+      
+    cy.get('#option-label-color-93-item-56')
+      .should('be.visible')
+      .and('contain.text', color);
+
+    cy.get('.message-success')
+      .should('be.visible')
+      .and('contain.text', 'You added Desiree Fitness Tee to your shopping cart.');
+});
+

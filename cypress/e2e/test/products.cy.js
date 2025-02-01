@@ -21,4 +21,4 @@ describe('Products Testing', () => {
     it('TC03 - Should display product sizes and colors', () => {
         products.verifySizesAndColors();
     });
-})
+});
