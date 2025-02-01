@@ -6,5 +6,13 @@
     "invalidLogin": {
         "email": "rezaparamarta30gmail.com",
         "password": "qwerty123!"
+    },
+    "invalidLoginEmptyPassword": {
+        "email": "rezaparamarta30@gmail.com",
+        "password": " "
+    },
+    "invalidLoginEmptyEmailAndPassword": {
+        "email": " ",
+        "password": " "
     }
 }
