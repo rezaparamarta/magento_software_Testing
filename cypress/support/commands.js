@@ -55,3 +55,5 @@ Cypress.Commands.add('verifySizeAndColor', (size, color) => {
       .and('contain.text', 'You added Desiree Fitness Tee to your shopping cart.');
 });
 
+
+

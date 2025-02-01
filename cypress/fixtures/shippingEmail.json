@@ -1,0 +1,22 @@
+{
+    "shippingEmail": {
+        "email": "hanifahna24@gmail.com",
+        "password": "qwerty123!"
+    },
+    "shippingAddress": {
+        "company": "Main Website Store",
+        "streetAddress1": "123 Main Street",
+        "streetAddress2": "123 Main Street",
+        "streetAddress3": "123 Main Street"
+    },
+    "city": {
+        "city": "San Francisco",
+        "state": "Alabama",
+        "zipCode": "94105",
+        "country": "United States"
+    },
+    "phoneNumber": {
+        "phoneNumber": "1234567890"
+    }
+
+}
